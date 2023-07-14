@@ -1,0 +1,26 @@
+repositoryName: kolink
+
+requestDefs:
+  - outDir: kolinkGraph
+    callee:
+      dir: graph
+      ignoreNewFunc: true
+      ignoreTest: true
+    caller:
+      dir: ./
+      ignoreTest: true
+    fileParams:
+      - fileName: graph.go
+        layout: circo
+        split: true
+        attributes:
+          - name: ranksep
+            value: 2
+  - outDir: kolinkGraph
+    callee:
+      dir: request
+      ignoreNewFunc: true
+      ignoreTest: true
+    caller:
+      dir: ./
+      ignoreTest: true
