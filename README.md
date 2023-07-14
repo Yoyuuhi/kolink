@@ -61,5 +61,8 @@ requestDefs:
     - `split`: output graph by type/func if true (default output by callee file)
     - `attributes`: can add graphviz attributes
 
+## Example
+![image](https://github.com/Yoyuuhi/kolink/assets/53810181/7117e6ba-0231-4031-a3b4-85cebcf4611e)
+
 # License
 MIT
