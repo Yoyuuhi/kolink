@@ -60,3 +60,6 @@ requestDefs:
     - `layout`: graphviz layout
     - `split`: output graph by type/func if true (default output by callee file)
     - `attributes`: can add graphviz attributes
+
+# License
+MIT
