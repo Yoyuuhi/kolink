@@ -1,5 +1,5 @@
 # kolink
-Output pretty simple call graph for golang among limited packages.
+Easily output simple call graph for golang between every two packages.
 
 # Features
 Based on abstract structure tree (AST):
